@@ -4,7 +4,7 @@ import { CgDetailsMore } from "react-icons/cg";
 import Detailofcard from "./Detailofcard.jsx"
 
 const imgp ="https://images.unsplash.com/photo-1792861249890-ffabf961d3ba?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D";
-export default function Newcard({val, setVal}) {
+export default function Newcard() {
     const[val, setVal] = useState(false);
 
     return (

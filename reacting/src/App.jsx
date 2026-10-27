@@ -19,7 +19,7 @@ function App() {
 
   return(
     <>
-      <Newcard val={val} setVal={setVal}/>
+      <Newcard />
       
     </>
   )
