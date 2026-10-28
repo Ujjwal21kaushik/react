@@ -18,10 +18,10 @@ function App() {
   
 
   return(
-    <>
+    <div className="w-full h-screen flex items-center justify-center gap-4 bg-zinc-200">
       <Newcard />
-      
-    </>
+    </div>
+    
   )
 
 }
