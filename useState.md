@@ -144,3 +144,31 @@ export default function Formhandling(){
     )
 }
  -->
+
+
+
+ ***UseE ffect***
+
+reconcilition and Updation 
+
+compontent updation => components deletion + components updations
+
+    <!-- useEffect (()=>{
+        console.log("Services Connected");
+        
+
+        return()=>{
+            console.log("Services Deleted"); // callback function --> as we go to another component we se deleted services..
+            
+        }
+    ***},[])*** is called updation no re-rendering done -->
+
+    <!-- useEffect (()=>{
+        console.log("Services Connected");
+        
+
+        return()=>{
+            console.log("Services Deleted"); // callback function --> as we go to another component we se deleted services..
+            
+        }
+    }) --> this is re-rendring
