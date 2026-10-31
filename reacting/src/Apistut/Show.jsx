@@ -1,15 +1,15 @@
 import React, {useEffect, useState} from "react";
-import axios from "axios";
+import axios from "../utils/axios";
 
 export default function Show() {
 
   const [product, setProduct] = useState([]);
 
   const getProduct = () => {
-    const apis = "https://fakestoreapi.com/products";
+    // const apis = "https://fakestoreapi.com/products";
 
     axios
-      .get(apis)
+      .get("/products")
       .then((product) => {
         console.log(product);
         setProduct(product.data);
