@@ -19,6 +19,9 @@ import Detailofcard from "./FormExercise/Detailofcard.jsx";
 import Home from "./Apistut/Home";
 import Show from "./Apistut/Show";  
 import Services from "./Apistut/Services";  
+import UserDetail from "./Apistut/UserDetail.jsx";
+import { MdPodcasts } from "react-icons/md";
+import Usershow from "./Apistut/Usershow.jsx"
 
 
 function App() {
@@ -33,6 +36,8 @@ function App() {
          <Link to="/">Home</Link>
          <Link to="/services">Services</Link>
          <Link to="/show">Show</Link>
+         <Link to="/usershow">User</Link>
+         <Link to="/userdetail">UserDetail</Link>
         
       </nav>
 
@@ -40,6 +45,8 @@ function App() {
         <Route path="/" element={<Home />}>Home</Route>
         <Route path="/services" element={<Services />}>Services</Route>
         <Route path="/show" element={<Show />}>Show</Route>
+        <Route path="/usershow" element={<Usershow />}>User</Route>
+        <Route path="/userdetail" element={<UserDetail />}>UserDetail</Route>
       </Routes>
 
     </div>
